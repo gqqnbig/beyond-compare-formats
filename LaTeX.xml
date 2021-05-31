@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Produced by Beyond Compare 4 from Scooter Software -->
+<BCFileFormats Version="1">
+	<TTextFormat Value="LaTeX文件">
+		<CharPerLine Value="4096"/>
+		<CodePageDetect Value="True"/>
+		<ColBased Value="False"/>
+		<CommentCaseSig Value="False"/>
+		<ConvertKind Value="convertNone"/>
+		<CtrlZIsEOF Value="False"/>
+		<Description>
+			<_0 Value="LaTeX source code"/>
+		</Description>
+		<DirectiveCaseSig Value="True"/>
+		<Enabled Value="True"/>
+		<EnvironVarCaseSig Value="True"/>
+		<Grammar>
+			<_0 Value="TBasicTextGrammarItem">
+				<ElementStr Value="&#2;Keyword"/>
+				<CaseSensitive Value="False"/>
+				<IsRegExp Value="True"/>
+				<Text Value="\\\w+"/>
+			</_0>
+			<_1 Value="TDelimitedTextGrammarItem">
+				<ElementStr Value="&#2;Comment"/>
+				<CaseSensitive Value="False"/>
+				<IsRegExp Value="False"/>
+				<Text Value="%"/>
+				<Escape Value="0"/>
+				<StopEOL Value="True"/>
+				<StopText Value=""/>
+			</_1>
+		</Grammar>
+		<IdentifierCaseSig Value="True"/>
+		<IndentCaseSig Value="True"/>
+		<KeywordCaseSig Value="False"/>
+		<LabelCaseSig Value="True"/>
+		<LineBased Value="False"/>
+		<LineNumCaseSig Value="True"/>
+		<Mask Value="*.tex"/>
+		<NumberCaseSig Value="True"/>
+		<OperatorCaseSig Value="True"/>
+		<StringCaseSig Value="True"/>
+		<TabAsSpaces Value="False"/>
+		<TabSize Value="8"/>
+		<TidyLeadingWS Value="False"/>
+		<TrimTrailingWS Value="False"/>
+	</TTextFormat>
+</BCFileFormats>
