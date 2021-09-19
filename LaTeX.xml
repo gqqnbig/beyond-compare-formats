@@ -30,6 +30,12 @@
 				<StopEOL Value="True"/>
 				<StopText Value=""/>
 			</_1>
+			<_2 Value="TBasicTextGrammarItem">
+				<ElementStr Value="&#2;Number"/>
+				<CaseSensitive Value="False"/>
+				<IsRegExp Value="True"/>
+				<Text Value="\d+(\.\d+)?(pt|mm|cm|ex|em|bp|dd|pc|in)"/>
+			</_2>
 		</Grammar>
 		<IdentifierCaseSig Value="True"/>
 		<IndentCaseSig Value="True"/>
@@ -38,7 +44,7 @@
 		<LineBased Value="False"/>
 		<LineNumCaseSig Value="True"/>
 		<Mask Value="*.tex"/>
-		<NumberCaseSig Value="True"/>
+		<NumberCaseSig Value="False"/>
 		<OperatorCaseSig Value="True"/>
 		<StringCaseSig Value="True"/>
 		<TabAsSpaces Value="False"/>
