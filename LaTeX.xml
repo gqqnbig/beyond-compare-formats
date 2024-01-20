@@ -39,7 +39,7 @@
 		</Grammar>
 		<IdentifierCaseSig Value="True"/>
 		<IndentCaseSig Value="True"/>
-		<KeywordCaseSig Value="False"/>
+		<KeywordCaseSig Value="True"/>
 		<LabelCaseSig Value="True"/>
 		<LineBased Value="False"/>
 		<LineNumCaseSig Value="True"/>
